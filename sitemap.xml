@@ -3,42 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vsahil.github.io/post/cfe-survey/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/authors/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/categories/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/tag/explainability-in-ml/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/category/explainability-in-ml/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/author/john-dickerson/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/author/keegan-hines/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/post/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/author/sahil-verma/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/tags/</loc>
+    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vsahil.github.io/publication-type/1/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://vsahil.github.io/authors/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/categories/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://vsahil.github.io/publication/counterfactual-survey/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/tag/explainability-in-ml/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/category/explainability-in-ml/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/author/john-dickerson/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/author/keegan-hines/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -49,21 +74,6 @@
   
   <url>
     <loc>https://vsahil.github.io/publication/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/author/sahil-verma/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/tags/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -150,10 +160,6 @@
   <url>
     <loc>https://vsahil.github.io/publication/sdb-wolverine1/</loc>
     <lastmod>2017-08-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/post/</loc>
   </url>
   
   <url>

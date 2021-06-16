@@ -3,63 +3,148 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://vsahil.github.io/post/cfe-survey/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <loc>https://vsahil.github.io/post/amortized-counterfactuals2021/</loc>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/authors/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/categories/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/tag/explainability-in-ml/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/category/explainability-in-ml/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/author/john-dickerson/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/author/keegan-hines/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/post/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/author/sahil-verma/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/tags/</loc>
-    <lastmod>2020-11-28T17:22:24+05:30</lastmod>
+    <lastmod>2021-06-15T01:55:33+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://vsahil.github.io/publication-type/1/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+    <loc>https://vsahil.github.io/post/counterfactuals-survey/</loc>
+    <lastmod>2021-06-15T01:52:06+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/publication-type/3/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/author/aditya-lahiri/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/publication/hcxai-chi2021-cfe-challenges/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/author/john-p.-dickerson/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/publication/journe2021-pitfalls-xai/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/publication_types/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/publication/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/author/su-in-lee/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/publication/amortized-counterfactuals2021/</loc>
+    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/tag/fairness-in-ml/</loc>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/category/fairness-in-ml/</loc>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/author/michael-ernst/</loc>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/publication/removing-fairness-paper/</loc>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/author/rene-just/</loc>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/category/other/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/publication/shapeflow-eth-zurich/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vsahil.github.io/author/zhendong-su/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -68,27 +153,12 @@
   </url>
   
   <url>
-    <loc>https://vsahil.github.io/publication_types/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/publication/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+    <loc>https://vsahil.github.io/publication-type/1/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://vsahil.github.io/author/chirag-shah/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/tag/fairness-in-ml/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/category/fairness-in-ml/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -109,11 +179,6 @@
   
   <url>
     <loc>https://vsahil.github.io/tag/other/</loc>
-    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vsahil.github.io/category/other/</loc>
     <lastmod>2019-11-04T00:00:00+00:00</lastmod>
   </url>
   

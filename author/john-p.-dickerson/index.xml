@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John P. Dickerson | Sahil Verma</title>
+    <link>https://vsahil.github.io/author/john-p.-dickerson/</link>
+      <atom:link href="https://vsahil.github.io/author/john-p.-dickerson/index.xml" rel="self" type="application/rss+xml" />
+    <description>John P. Dickerson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vsahil.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>John P. Dickerson</title>
+      <link>https://vsahil.github.io/author/john-p.-dickerson/</link>
+    </image>
+    
+    <item>
+      <title>Counterfactual Explanations for Machine Learning: Challenges Revisited</title>
+      <link>https://vsahil.github.io/publication/hcxai-chi2021-cfe-challenges/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://vsahil.github.io/publication/hcxai-chi2021-cfe-challenges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pitfalls of Explainable ML: An Industry Perspective</title>
+      <link>https://vsahil.github.io/publication/journe2021-pitfalls-xai/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://vsahil.github.io/publication/journe2021-pitfalls-xai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amortized Generation of Sequential Counterfactual Explanations for Black-box Models</title>
+      <link>https://vsahil.github.io/publication/amortized-counterfactuals2021/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://vsahil.github.io/publication/amortized-counterfactuals2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

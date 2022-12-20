@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anurag Beniwal | Sahil Verma</title>
+    <link>https://vsahil.github.io/author/anurag-beniwal/</link>
+      <atom:link href="https://vsahil.github.io/author/anurag-beniwal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anurag Beniwal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vsahil.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Anurag Beniwal</title>
+      <link>https://vsahil.github.io/author/anurag-beniwal/</link>
+    </image>
+    
+    <item>
+      <title>RecXplainer: Post-hoc attribute-based explanations for recommender systems</title>
+      <link>https://vsahil.github.io/publication/recxplainer-amazon-22/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://vsahil.github.io/publication/recxplainer-amazon-22/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

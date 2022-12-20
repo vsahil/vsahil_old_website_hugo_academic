@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="Explainable machine learning (ML) has gained traction in recent years due to the increasing adoption of ML-based systems in many sectors. Counterfactual explanations (CFEs) provide “what if” feedback of the form “if an input datapoint were x′ instead of x, then an ML-based system’s output would be y′ instead of y.” CFEs are attractive due to their actionable feedback, amenability to existing legal frameworks, and fidelity to the underlying ML model. Yet, current CFE approaches are single shot—that is, they assume x can change to x′ in a single time period. We propose a novel stochastic-control-based approach that generates sequential CFEs, that is, CFEs that allow x to move stochastically and sequentially across intermediate states to a final state x′. Our approach is model agnostic and black box. Furthermore, calculation of CFEs is amortized such that once trained, it applies to multiple datapoints without the need for re-optimization. In addition to these primary characteristics, our approach admits optional desiderata such as adherence to the data manifold, respect for causal relations, and sparsity—identified by past research as desirable properties of CFEs. We evaluate our approach using three real-world datasets and show successful generation of sequential CFEs that respect other counterfactual desiderata.">
+  <meta name="description" content="Recommender systems are ubiquitous in most of our interactions in the current digital world. Whether shopping for clothes, scrolling YouTube for exciting videos, or searching for restaurants in a new city, the recommender systems at the back-end power these services. Most large-scale recommender systems are huge models trained on extensive datasets and are black-boxes to both their developers and end-users. Prior research has shown that providing recommendations along with their reason enhances trust, scrutability, and persuasiveness of the recommender systems. Recent literature in explainability has been inundated with works proposing several algorithms to this end. Most of these works provide item-style explanations, i.e., &#39;We recommend item A because you bought item B.&#39; We propose a novel approach, RecXplainer, to generate more fine-grained explanations based on the user&#39;s preference over the attributes of the recommended items. We perform experiments using real-world datasets and demonstrate the efficacy of RecXplainer in capturing users&#39; preferences and using them to explain recommendations. We also propose ten new evaluation metrics and compare RecXplainer to six baseline methods.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://vsahil.github.io/publication/amortized-counterfactuals2021/">
+  <link rel="alternate" hreflang="en-us" href="https://vsahil.github.io/publication/recxplainer-amazon-22/">
 
   
 
@@ -264,7 +264,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://vsahil.github.io/publication/amortized-counterfactuals2021/">
+  <link rel="canonical" href="https://vsahil.github.io/publication/recxplainer-amazon-22/">
 
   
   
@@ -283,15 +283,15 @@
   <meta property="twitter:creator" content="@Sahil1V">
   
   <meta property="og:site_name" content="Sahil Verma">
-  <meta property="og:url" content="https://vsahil.github.io/publication/amortized-counterfactuals2021/">
-  <meta property="og:title" content="Amortized Generation of Sequential Counterfactual Explanations for Black-box Models | Sahil Verma">
-  <meta property="og:description" content="Explainable machine learning (ML) has gained traction in recent years due to the increasing adoption of ML-based systems in many sectors. Counterfactual explanations (CFEs) provide “what if” feedback of the form “if an input datapoint were x′ instead of x, then an ML-based system’s output would be y′ instead of y.” CFEs are attractive due to their actionable feedback, amenability to existing legal frameworks, and fidelity to the underlying ML model. Yet, current CFE approaches are single shot—that is, they assume x can change to x′ in a single time period. We propose a novel stochastic-control-based approach that generates sequential CFEs, that is, CFEs that allow x to move stochastically and sequentially across intermediate states to a final state x′. Our approach is model agnostic and black box. Furthermore, calculation of CFEs is amortized such that once trained, it applies to multiple datapoints without the need for re-optimization. In addition to these primary characteristics, our approach admits optional desiderata such as adherence to the data manifold, respect for causal relations, and sparsity—identified by past research as desirable properties of CFEs. We evaluate our approach using three real-world datasets and show successful generation of sequential CFEs that respect other counterfactual desiderata."><meta property="og:image" content="https://vsahil.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://vsahil.github.io/publication/recxplainer-amazon-22/">
+  <meta property="og:title" content="RecXplainer: Post-hoc attribute-based explanations for recommender systems | Sahil Verma">
+  <meta property="og:description" content="Recommender systems are ubiquitous in most of our interactions in the current digital world. Whether shopping for clothes, scrolling YouTube for exciting videos, or searching for restaurants in a new city, the recommender systems at the back-end power these services. Most large-scale recommender systems are huge models trained on extensive datasets and are black-boxes to both their developers and end-users. Prior research has shown that providing recommendations along with their reason enhances trust, scrutability, and persuasiveness of the recommender systems. Recent literature in explainability has been inundated with works proposing several algorithms to this end. Most of these works provide item-style explanations, i.e., &#39;We recommend item A because you bought item B.&#39; We propose a novel approach, RecXplainer, to generate more fine-grained explanations based on the user&#39;s preference over the attributes of the recommended items. We perform experiments using real-world datasets and demonstrate the efficacy of RecXplainer in capturing users&#39; preferences and using them to explain recommendations. We also propose ten new evaluation metrics and compare RecXplainer to six baseline methods."><meta property="og:image" content="https://vsahil.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://vsahil.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-11-27T13:37:22&#43;05:30">
+      <meta property="article:published_time" content="2022-12-20T10:19:14-05:00">
     
-    <meta property="article:modified_time" content="2021-06-07T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-12-20T00:00:00&#43;00:00">
   
 
   
@@ -313,12 +313,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://vsahil.github.io/publication/amortized-counterfactuals2021/"
+    "@id": "https://vsahil.github.io/publication/recxplainer-amazon-22/"
   },
-  "headline": "Amortized Generation of Sequential Counterfactual Explanations for Black-box Models",
+  "headline": "RecXplainer: Post-hoc attribute-based explanations for recommender systems",
   
-  "datePublished": "2020-11-27T13:37:22+05:30",
-  "dateModified": "2021-06-07T00:00:00Z",
+  "datePublished": "2022-12-20T10:19:14-05:00",
+  "dateModified": "2022-12-20T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -333,7 +333,7 @@
       "url": "https://vsahil.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Explainable machine learning (ML) has gained traction in recent years due to the increasing adoption of ML-based systems in many sectors. Counterfactual explanations (CFEs) provide “what if” feedback of the form “if an input datapoint were x′ instead of x, then an ML-based system’s output would be y′ instead of y.” CFEs are attractive due to their actionable feedback, amenability to existing legal frameworks, and fidelity to the underlying ML model. Yet, current CFE approaches are single shot—that is, they assume x can change to x′ in a single time period. We propose a novel stochastic-control-based approach that generates sequential CFEs, that is, CFEs that allow x to move stochastically and sequentially across intermediate states to a final state x′. Our approach is model agnostic and black box. Furthermore, calculation of CFEs is amortized such that once trained, it applies to multiple datapoints without the need for re-optimization. In addition to these primary characteristics, our approach admits optional desiderata such as adherence to the data manifold, respect for causal relations, and sparsity—identified by past research as desirable properties of CFEs. We evaluate our approach using three real-world datasets and show successful generation of sequential CFEs that respect other counterfactual desiderata."
+  "description": "Recommender systems are ubiquitous in most of our interactions in the current digital world. Whether shopping for clothes, scrolling YouTube for exciting videos, or searching for restaurants in a new city, the recommender systems at the back-end power these services. Most large-scale recommender systems are huge models trained on extensive datasets and are black-boxes to both their developers and end-users. Prior research has shown that providing recommendations along with their reason enhances trust, scrutability, and persuasiveness of the recommender systems. Recent literature in explainability has been inundated with works proposing several algorithms to this end. Most of these works provide item-style explanations, i.e., 'We recommend item A because you bought item B.' We propose a novel approach, RecXplainer, to generate more fine-grained explanations based on the user's preference over the attributes of the recommended items. We perform experiments using real-world datasets and demonstrate the efficacy of RecXplainer in capturing users' preferences and using them to explain recommendations. We also propose ten new evaluation metrics and compare RecXplainer to six baseline methods."
 }
 </script>
 
@@ -351,7 +351,7 @@
 
 
 
-  <title>Amortized Generation of Sequential Counterfactual Explanations for Black-box Models | Sahil Verma</title>
+  <title>RecXplainer: Post-hoc attribute-based explanations for recommender systems | Sahil Verma</title>
 
 </head>
 
@@ -694,7 +694,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Amortized Generation of Sequential Counterfactual Explanations for Black-box Models</h1>
+  <h1>RecXplainer: Post-hoc attribute-based explanations for recommender systems</h1>
 
   
 
@@ -712,7 +712,7 @@
     
 
   
-  <span ><a href="/author/sahil-verma/">Sahil Verma</a></span>, <span ><a href="/author/keegan-hines/">Keegan Hines</a></span>, <span ><a href="/author/john-p.-dickerson/">John P. Dickerson</a></span>
+  <span ><a href="/author/sahil-verma/">Sahil Verma</a></span>, <span ><a href="/author/anurag-beniwal/">Anurag Beniwal</a></span>, <span ><a href="/author/narayanan-sadagopan/">Narayanan Sadagopan</a></span>, <span ><a href="/author/arjun-seshadri/">Arjun Seshadri</a></span>
   </div>
   
   
@@ -723,7 +723,7 @@
     
       
     
-    June 2021
+    December 2022
   </span>
   
 
@@ -779,14 +779,14 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2106.03962.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2211.14935" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/amortized-counterfactuals2021/cite.bib">
+        data-filename="/publication/recxplainer-amazon-22/cite.bib">
   Cite
 </button>
 
@@ -802,7 +802,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/amortized-counterfactuals2021/amortized-slides.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/recxplainer-amazon-22/recxplainer-tea-slides.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -824,7 +824,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Explainable machine learning (ML) has gained traction in recent years due to the increasing adoption of ML-based systems in many sectors. Counterfactual explanations (CFEs) provide “what if” feedback of the form “if an input datapoint were x′ instead of x, then an ML-based system’s output would be y′ instead of y.” CFEs are attractive due to their actionable feedback, amenability to existing legal frameworks, and fidelity to the underlying ML model. Yet, current CFE approaches are single shot—that is, they assume x can change to x′ in a single time period. We propose a novel stochastic-control-based approach that generates sequential CFEs, that is, CFEs that allow x to move stochastically and sequentially across intermediate states to a final state x′. Our approach is model agnostic and black box. Furthermore, calculation of CFEs is amortized such that once trained, it applies to multiple datapoints without the need for re-optimization. In addition to these primary characteristics, our approach admits optional desiderata such as adherence to the data manifold, respect for causal relations, and sparsity—identified by past research as desirable properties of CFEs. We evaluate our approach using three real-world datasets and show successful generation of sequential CFEs that respect other counterfactual desiderata.</p>
+    <p class="pub-abstract">Recommender systems are ubiquitous in most of our interactions in the current digital world. Whether shopping for clothes, scrolling YouTube for exciting videos, or searching for restaurants in a new city, the recommender systems at the back-end power these services. Most large-scale recommender systems are huge models trained on extensive datasets and are black-boxes to both their developers and end-users. Prior research has shown that providing recommendations along with their reason enhances trust, scrutability, and persuasiveness of the recommender systems. Recent literature in explainability has been inundated with works proposing several algorithms to this end. Most of these works provide item-style explanations, i.e., &lsquo;We recommend item A because you bought item B.&rsquo; We propose a novel approach, RecXplainer, to generate more fine-grained explanations based on the user&rsquo;s preference over the attributes of the recommended items. We perform experiments using real-world datasets and demonstrate the efficacy of RecXplainer in capturing users' preferences and using them to explain recommendations. We also propose ten new evaluation metrics and compare RecXplainer to six baseline methods.</p>
     
 
     
@@ -890,7 +890,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://vsahil.github.io/publication/amortized-counterfactuals2021/&amp;text=Amortized%20Generation%20of%20Sequential%20Counterfactual%20Explanations%20for%20Black-box%20Models" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://vsahil.github.io/publication/recxplainer-amazon-22/&amp;text=RecXplainer:%20Post-hoc%20attribute-based%20explanations%20for%20recommender%20systems" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -903,7 +903,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://vsahil.github.io/publication/amortized-counterfactuals2021/&amp;t=Amortized%20Generation%20of%20Sequential%20Counterfactual%20Explanations%20for%20Black-box%20Models" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://vsahil.github.io/publication/recxplainer-amazon-22/&amp;t=RecXplainer:%20Post-hoc%20attribute-based%20explanations%20for%20recommender%20systems" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -916,7 +916,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Amortized%20Generation%20of%20Sequential%20Counterfactual%20Explanations%20for%20Black-box%20Models&amp;body=https://vsahil.github.io/publication/amortized-counterfactuals2021/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=RecXplainer:%20Post-hoc%20attribute-based%20explanations%20for%20recommender%20systems&amp;body=https://vsahil.github.io/publication/recxplainer-amazon-22/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -929,7 +929,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://vsahil.github.io/publication/amortized-counterfactuals2021/&amp;title=Amortized%20Generation%20of%20Sequential%20Counterfactual%20Explanations%20for%20Black-box%20Models" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://vsahil.github.io/publication/recxplainer-amazon-22/&amp;title=RecXplainer:%20Post-hoc%20attribute-based%20explanations%20for%20recommender%20systems" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -942,7 +942,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Amortized%20Generation%20of%20Sequential%20Counterfactual%20Explanations%20for%20Black-box%20Models%20https://vsahil.github.io/publication/amortized-counterfactuals2021/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=RecXplainer:%20Post-hoc%20attribute-based%20explanations%20for%20recommender%20systems%20https://vsahil.github.io/publication/recxplainer-amazon-22/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -955,7 +955,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://vsahil.github.io/publication/amortized-counterfactuals2021/&amp;title=Amortized%20Generation%20of%20Sequential%20Counterfactual%20Explanations%20for%20Black-box%20Models" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://vsahil.github.io/publication/recxplainer-amazon-22/&amp;title=RecXplainer:%20Post-hoc%20attribute-based%20explanations%20for%20recommender%20systems" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -974,6 +974,12 @@
 
 
   
+  
+    
+
+
+
+
   
     
 
@@ -1013,13 +1019,13 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/hcxai-chi2021-cfe-challenges/">Counterfactual Explanations for Machine Learning: Challenges Revisited</a></li>
-      
       <li><a href="/publication/counterfactual-survey/">Counterfactual Explanations for Machine Learning: A Review</a></li>
       
-      <li><a href="/publication/journe2021-pitfalls-xai/">Pitfalls of Explainable ML: An Industry Perspective</a></li>
+      <li><a href="/publication/amortized-counterfactuals2021/">Amortized Generation of Sequential Counterfactual Explanations for Black-box Models</a></li>
       
-      <li><a href="/publication/recxplainer-amazon-22/">RecXplainer: Post-hoc attribute-based explanations for recommender systems</a></li>
+      <li><a href="/publication/hcxai-chi2021-cfe-challenges/">Counterfactual Explanations for Machine Learning: Challenges Revisited</a></li>
+      
+      <li><a href="/publication/journe2021-pitfalls-xai/">Pitfalls of Explainable ML: An Industry Perspective</a></li>
       
       <li><a href="/post/amortized-counterfactuals2021/">Amortized Counterfactual Explanations</a></li>
       
